@@ -1,1 +1,0 @@
-# tneh-pakistan
