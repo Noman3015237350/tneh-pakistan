@@ -1,31 +1,30 @@
 {
-  "name": "tneh-pakistan-sms-bomber",
-  "version": "1.0.0",
-  "description": "TNEH PAKISTAN SMS BOMBER - 25+ Pakistan SMS APIs",
+  "name": "pakistan-sms-bomber",
+  "version": "2.0.0",
+  "description": "SMS Bomber for Pakistan numbers with beautiful UI",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/index.js",
+    "vercel-build": "echo Hello"
   },
-  "keywords": [
-    "pakistan",
-    "sms-bomber",
-    "tneh",
-    "otp-bomber",
-    "pakistan-sms"
-  ],
-  "author": "TNEH GROUP",
-  "license": "MIT",
   "dependencies": {
+    "express": "^4.18.2",
     "axios": "^1.6.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "helmet": "^7.1.0"
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^7.1.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "engines": {
-    "node": ">=16.0.0"
-  }
+  "keywords": [
+    "sms",
+    "bomber",
+    "pakistan",
+    "otp",
+    "sms-api"
+  ],
+  "author": "",
+  "license": "MIT"
 }
